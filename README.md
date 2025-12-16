@@ -1,5 +1,4 @@
 # Speed Dating Match Prediction (Custom XGBoost)
----
 
 ## Abstract
 This project predicts whether a pair will form a match using the **Speed Dating** dataset.  
