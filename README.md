@@ -11,6 +11,13 @@ It focuses on feature engineering and a **custom implementation of an XGBoost-st
 - Maintain a clear and reproducible modeling pipeline.
 
 
+## Key Findings
+- Interaction features significantly improve predictive signal in behavioral datasets.
+- Clear separation between preprocessing, modeling, and evaluation improves maintainability without over-engineering.
+- Implementing the model from scratch clarifies trade-offs in boosting-based methods.
+
+
+
 ## Approach
 - Engineered interaction-based features such as age gaps, same-race indicators, and importance × rating scores.
 - Standardized missing values using a sentinel value and applied consistent imputation.
@@ -18,10 +25,6 @@ It focuses on feature engineering and a **custom implementation of an XGBoost-st
 - Evaluated generalization using a held-out test set.
 
 
-## Key Findings
-- Interaction features significantly improve predictive signal in behavioral datasets.
-- Clear separation between preprocessing, modeling, and evaluation improves maintainability without over-engineering.
-- Implementing the model from scratch clarifies trade-offs in boosting-based methods.
 
 ## Code
 - `preprocess.py`: Converts raw speed-dating data into model-ready features through systematic feature engineering and encoding.
